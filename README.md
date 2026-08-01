@@ -30,6 +30,14 @@ The application validates customer IDs and generates a random Diwali coupon for 
 - Boolean
 - if-else Statements
 
+## Certification
+
+This project was developed as part of the Infosys Springboard JavaScript training.
+
+- Course: JavaScript Programming
+- Platform: Infosys Springboard
+- Status: Successfully Completed
+
 ## Author
 
 Krishna Kumar
