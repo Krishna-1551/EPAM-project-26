@@ -6,11 +6,11 @@ public class Problem1 {
 
         Scanner sc = new Scanner(System.in);
 
-        // Read number of servers and threshold K
+        
         int n = sc.nextInt();
         int k = sc.nextInt();
 
-        // Store security key of each server
+        
         int[] key = new int[n + 1];
 
         for (int i = 1; i <= n; i++) {
@@ -35,7 +35,7 @@ public class Problem1 {
             graph.get(v).add(u);
         }
 
-        // XOR value from Server 1 to every server
+        
         int[] pathXor = new int[n + 1];
 
         // Store parent of each server
