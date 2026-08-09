@@ -6,7 +6,7 @@ public class Problem2 {
 
         Scanner sc = new Scanner(System.in);
 
-        // Read number of cities, roads, and maximum allowed distance
+        
         int n = sc.nextInt();
         int m = sc.nextInt();
         int d = sc.nextInt();
@@ -38,7 +38,7 @@ public class Problem2 {
         // BFS queue
         Queue<Integer> queue = new LinkedList<>();
 
-        // Start BFS from City 1
+        
         distance[1] = 0;
         queue.add(1);
 
