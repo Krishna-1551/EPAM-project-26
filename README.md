@@ -4,8 +4,8 @@ This repository contains the assignments and project work completed as part of t
 
 ## 📁 Repository Structure
 
-
-
+EPAM-project-26/
+│
 ├── Assignment 1/
 │   ├── Js Certificate.pdf
 │   ├── index.html
