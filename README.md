@@ -1,3 +1,10 @@
+# EPAM Project 26
+
+This repository contains the assignments and project work completed as part of the EPAM Project 26 program.
+
+## 📁 Repository Structure
+
+```text
 EPAM-project-26/
 │
 ├── Assignment 1/
@@ -16,3 +23,4 @@ EPAM-project-26/
 │
 ├── LICENSE
 └── README.md
+```
