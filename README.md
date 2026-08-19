@@ -17,7 +17,7 @@ Java programming assignments.
 Java programming assignments.
 
 ### Assignment 4
-Git assignment and Git Certificate.
+Git Certificate.
 
 ## Technologies Used
 
