@@ -1,0 +1,52 @@
+HP@Krishna MINGW64 ~
+$ git clone https://github.com/Krishna-1551/EPAM-project-26.git
+Cloning into 'EPAM-project-26'...
+remote: Enumerating objects: 90, done.
+remote: Counting objects: 100% (90/90), done.
+remote: Compressing objects: 100% (84/84), done.
+remote: Total 90 (delta 37), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (90/90), 213.20 KiB | 1.69 MiB/s, done.
+Resolving deltas: 100% (37/37), done.
+
+HP@Krishna MINGW64 ~
+$ cd EPAM-project-26
+
+HP@Krishna MINGW64 ~/EPAM-project-26 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+HP@Krishna MINGW64 ~/EPAM-project-26 (main)
+$ git mv Assignment3 "Assignment 3"
+
+HP@Krishna MINGW64 ~/EPAM-project-26 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    Assignment3/Problem1.java -> Assignment 3/Problem1.java
+        renamed:    Assignment3/Problem2.java -> Assignment 3/Problem2.java
+
+
+HP@Krishna MINGW64 ~/EPAM-project-26 (main)
+$ git commit -m "Rename Assignment3 to Assignment 3 "
+[main 3749fe9] Rename Assignment3 to Assignment 3
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename {Assignment3 => Assignment 3}/Problem1.java (100%)
+ rename {Assignment3 => Assignment 3}/Problem2.java (100%)
+
+HP@Krishna MINGW64 ~/EPAM-project-26 (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 272 bytes | 272.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Krishna-1551/EPAM-project-26.git
+   83e436f..3749fe9  main -> main
